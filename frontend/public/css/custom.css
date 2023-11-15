@@ -1,0 +1,9 @@
+.dp-full-width {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.dp-full-width:focus {
+  border-color: #2196f3;
+  outline: none;
+}
