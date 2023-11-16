@@ -8,11 +8,21 @@ export function Home() {
       <Typography variant="h4" className="mb-4">
         Welcome {user.name}
       </Typography>
-      <img
-        className="h-96 w-full object-cover object-center"
-        src="https://images.unsplash.com/photo-1682407186023-12c70a4a35e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
-        alt="nature image"
-      />
+      <div className=" flex items-center justify-center">
+        <div className="mt-2 w-full">
+          <div className="mr-2 max-w-full animate-pulse overflow-hidden rounded shadow-lg">
+            <div className="h-48 bg-gray-300"></div>
+            <div className="px-6 py-4">
+              <div className="mb-2 h-6 bg-gray-300"></div>
+              <div className="h-4 w-2/3 bg-gray-300"></div>
+            </div>
+            <div className="px-6 pt-4 pb-6">
+              <div className="mb-2 h-4 w-1/4 bg-gray-300"></div>
+              <div className="h-4 w-1/2 bg-gray-300"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

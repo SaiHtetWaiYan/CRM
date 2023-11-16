@@ -45,7 +45,9 @@ export function Home() {
               {totalCustomers}
             </Typography>
           </CardBody>
-          <CardFooter className="border-t border-blue-gray-50 p-4"></CardFooter>
+          <CardFooter className="border-t border-blue-gray-50 p-4">
+            {" "}
+          </CardFooter>
         </Card>
       </div>
       <div className="mb-6 grid grid-cols-1 gap-y-12 gap-x-6 md:grid-cols-2 xl:grid-cols-3">

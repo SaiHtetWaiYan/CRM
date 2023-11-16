@@ -1,6 +1,10 @@
 import PropTypes from "prop-types";
 import { Link, NavLink } from "react-router-dom";
-import { ArrowLeftOnRectangleIcon } from "@heroicons/react/24/outline";
+import {
+  ArrowLeftOnRectangleIcon,
+  Bars3Icon,
+  XMarkIcon,
+} from "@heroicons/react/24/outline";
 import {
   Avatar,
   Button,
@@ -28,16 +32,25 @@ export function Sidenav({ routes }) {
         openSidenav ? "translate-x-0" : "-translate-x-80"
       } fixed inset-0 z-50  h-[calc(100vh)] w-72  transition-transform duration-300 xl:translate-x-0`}
     >
-      <div
-        className="relative border-b 
-          border-blue-gray-50"
-      >
+      <div className="relative flex items-center border-b border-blue-gray-50">
         <Link to="#" className="flex items-center gap-2 py-6 px-8">
           <img
             src="/img/crm.png"
             className="relative inline-block w-28 rounded-lg object-cover object-center"
           />
         </Link>
+        <IconButton
+          variant="text"
+          color="blue-gray"
+          className="ml-auto mr-1 xl:hidden"
+          onClick={() => setOpenSidenav(dispatch, !openSidenav)}
+        >
+          {openSidenav ? (
+            <XMarkIcon strokeWidth={3} className="h-6 w-6 text-blue-gray-500" />
+          ) : (
+            <></>
+          )}
+        </IconButton>
       </div>
       <div className="m-4">
         {routes

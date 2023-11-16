@@ -13,7 +13,7 @@ export function Footer() {
             target="_blank"
             className="transition-colors hover:text-blue-500"
           >
-            Sai Htet Wai Yan
+            <strong>Sai Htet Wai Yan</strong>
           </a>{" "}
           using from{" "}
           <a
@@ -21,7 +21,7 @@ export function Footer() {
             target="_blank"
             className="transition-colors hover:text-blue-500"
           >
-            Creative Tim
+            <strong>Creative Tim</strong>
           </a>{" "}
           for a better web experience.
         </Typography>
