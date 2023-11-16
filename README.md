@@ -66,7 +66,8 @@ Follow these steps to set up and run the CRM system on your local machine:
 
 ## Demo
 
-Explore the system through the provided screen recording: [crm.gif](crm.gif)
+Explore the system through the provided screen recording:
+![CRM](crm.gif)
 
 ## Future Updates
 
