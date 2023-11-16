@@ -55,7 +55,12 @@ Follow these steps to set up and run the CRM system on your local machine:
 4. **Access the Application:**
    Open your browser and navigate to [http://localhost:5173](http://localhost:5173)
 
-5. **Login Credentials:**
+5. **URL:**
+
+   - Sign-in for Admin & Customer [http://localhost:5173/auth/sign-in](http://localhost:5173/auth/sign-in)
+   - Sign-up for Customer [http://localhost:5173/auth/sign-up](http://localhost:5173/auth/sign-up)
+
+6. **Login Credentials:**
 
    - **Admin:**
 
