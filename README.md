@@ -36,6 +36,8 @@ Follow these steps to set up and run the CRM system on your local machine:
    ```bash
    cd backend
    composer install
+   cp .env.example .env
+   php artisan key:generate
    php artisan migrate
    php artisan db:seed --class=AdminSeeder
    php artisan db:seed --class=UserSeeder
@@ -45,7 +47,7 @@ Follow these steps to set up and run the CRM system on your local machine:
 3. **Setup Frontend:**
 
    ```bash
-   cd ../frontend
+   cd frontend
    npm install
    npm run dev
    ```
