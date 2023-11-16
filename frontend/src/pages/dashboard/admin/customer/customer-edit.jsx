@@ -154,7 +154,7 @@ export default function CustomerEdit({ fetchData, setSuccess, customer }) {
                     Phone Number
                   </Typography>
                   <Input
-                    type="number"
+                    type="phone"
                     label="Phone Number"
                     size="lg"
                     name="phone"

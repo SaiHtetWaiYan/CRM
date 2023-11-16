@@ -163,7 +163,7 @@ export function Setting() {
                   Phone
                 </Typography>
                 <Input
-                  type="number"
+                  type="phone"
                   label="Phone"
                   size="lg"
                   name="phone"

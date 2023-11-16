@@ -155,7 +155,7 @@ export default function CustomerAdd({ fetchData, setSuccess }) {
                     Phone Number
                   </Typography>
                   <Input
-                    type="number"
+                    type="phone"
                     label="Phone Number"
                     size="lg"
                     name="phone"
